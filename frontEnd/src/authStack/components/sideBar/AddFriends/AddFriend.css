@@ -1,0 +1,29 @@
+#result {
+    border: 1px dotted #ccc;
+    padding: 3px;
+    width: 98%;
+    background-color: #fff;
+  }
+  #result ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    height: 0;
+  }
+  #result ul li {
+    padding: 5px 0;
+    background-color: #fff;
+    padding: 10px 5px 10px 15px;
+  }
+  #result ul li:hover {
+      
+    background: #eee;
+  }
+  form{
+      margin-top: 20px;
+      width: 100%;
+  }
+  .field-suggestions{
+    width: 80%;
+  }
+  

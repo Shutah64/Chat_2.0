@@ -1,0 +1,17 @@
+.authStack_wrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 87%;
+}
+.authStack {
+    display: flex;
+    padding: 30px 0 0 0;
+    height: 100vh;
+    background-image: url(../assets/chat1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.authStack_content{
+    height: 100%;
+}

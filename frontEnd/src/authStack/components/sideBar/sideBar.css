@@ -1,0 +1,110 @@
+.sideBar{
+    height: 100%;
+    width: 488px;
+    color: #dfdef6 !important;
+}
+.sideBar_content{
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100%;
+    display: flex;
+}
+.sideBar_top .menu{
+    padding: 15.7px 23px;
+    background-color:#2f2d52;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sideBar_top .menu h2{
+    font-size: 23px;
+}
+.sideBar_top .search{
+    padding: 6.5px 23px;
+    background-color: #3f3d62;
+    border-bottom:1px solid #48466b;
+    border-top:1px solid #3f3d62;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+}
+.sideBar_top .search input{
+    width: 75.3%;
+    border: none;
+    outline: none;
+    background: transparent;
+    font-size: 20px;
+    color: #a2a2aa;
+}
+.sideBar_top .search input::placeholder {
+    color: #aeadb9 !important;
+    font-weight: lighter !important;
+}
+ .users{
+     background-color: #3e3c61;
+     overflow:auto; 
+     height: 100%;
+    }
+    .users::-webkit-scrollbar {
+        width: 10px;
+      }
+      
+      /* Track */
+      .users::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 5px grey; 
+        
+      }
+       
+      /* Handle */
+      .users::-webkit-scrollbar-thumb {
+        background: #333131; 
+        border-top-left-radius:25px ;
+        border-top-right-radius:25px ;
+        border-bottom-left-radius:25px ;
+        border-bottom-right-radius:25px ;
+       
+      }
+      
+      /* Handle on hover */
+      .users::-webkit-scrollbar-thumb:hover {
+        background: #222222; 
+      }
+.users .notification{
+    position: absolute;
+    right: 25px;
+    top: 37%;
+    background-color: #0cdf5e;
+    border-radius: 50%;
+    height: 23px;
+    width: 23px;
+    color: #fff;
+    text-align:center;
+    line-height: 27px;
+}
+.sideBar .bottom{
+    padding: 10px 23px;
+    background-color:#474b7b;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sideBar .bottom h6{
+    font-size: 19px;
+    color: #deddff
+}
+.sideBar .makeStyles-root-26 {
+    width: 100%;
+    padding: 0;
+    background-color: transparent;
+}
+.makeStyles-buttonGroup-31 {
+    width: 100% !important;
+    display: block !important;
+}
+.user_info{
+    margin-right: 12px;
+    height: 50px;
+    width: 100%;
+    display:flex;
+    align-items: center;
+}

@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+.makeStyles-buttonGroup-33 {
+    width: 100% !important;
+    display: block;
+}
+@media only screen and (max-width: 1200px) {
+    .App .sideBar {
+        height: 100%;
+        width: 314px;
+        color: #dfdef6 !important;
+    }
+   .chat_content .messeges_top {
+       text-align: center;
+    color: #2b2b2e;
+    padding: 20px 10px 30px 10px;
+    border-bottom: 1px solid #7e7bbe;
+}
+.App .container {
+    padding: 0 23px;
+    width: 899px;
+    margin: 0 auto;
+}
+}
+
+@media only screen and (max-width: 700px) {
+    .App .sideBar {
+        transition: all 600ms ease-in-out;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        /* width: 359px; */
+        color: #dfdef6 !important;
+        left: 0;
+z-index: 1000;
+}
+.jss33 {
+    width: 100% !important;
+    display: block;
+}
+.chat_content .top {
+    padding-left: 38px;
+    background-color: #5e5c8e;
+    display: flex;
+    padding: 0 25px;
+    justify-content: space-between;
+    align-items: center;
+    height: 75px;
+}
+.makeStyles-buttonGroup-33 {
+    width: 100%;
+    display: block;
+}
+.back_button {
+    display: block;
+}
+.makeStyles-buttonGroup-138 {
+    width: 100% !important;
+    display: block;
+}
+.makeStyles-img-70 {
+    max-width: 100% !important;
+}
+}
+@media only screen and (max-width: 500px) {
+    .chat {
+        height: 100%;
+        position: fixed;
+        width: 100%;
+        left: 0;
+        top: 0;
+    }
+}
